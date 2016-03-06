@@ -10,12 +10,12 @@
 |	SECTIONS
 |	=============
 |	4. Header [112]
-|	5. Our Service [222]
-|	6. About Us [332]
-|	7. Our Works [358]
-|	8. Meet With Us [441]
-|	9. Testimonial [506]
-|	10. Contact With Us [560]
+|	5. Preparation [222]
+|	6. Health Centers [332]
+|	7. Drug Directory [358]
+|	8. Meet With Us [441] ---- REMOVED
+|	9. Ranking [506]
+|	10. Contact [560]
 |	11. Media Query [711]
 |
 |
@@ -187,7 +187,7 @@ a.logo:hover
 }
 
 /*=================================
-||			Navigation 
+||			Navigation Bar 
 ==================================*/
 .navigationbar
 {
@@ -233,7 +233,7 @@ a.logo:hover
 	min-height: 62px;
 }
 /*=================================
-||			5. Our Service 
+||			5. PREPARATION 
 ==================================*/
 .service
 {
@@ -343,7 +343,7 @@ a.logo:hover
 }
 
 /*=================================
-||			6. About Us 
+||			6. HEALTH CENTERS
 ==================================*/
 #about .container-fluid .about-table
 {
@@ -369,7 +369,7 @@ a.logo:hover
 }
 
 /*=================================
-||			7. Our Works
+||			7. DRUG DIRECTORY
 ==================================*/
 .works
 {
@@ -456,7 +456,7 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 }
 
 /*=================================
-||			8. Meet With Us
+||			8. Meet With Us --- REMOVED
 ==================================*/
 .meet-item-bg
 {
@@ -521,7 +521,7 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 	font-size: 13px;
 }
 /*=================================
-||			9. Testimonial
+||			9. RANKING
 ==================================*/
 .testimonial
 {
@@ -575,7 +575,7 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 }
 
 /*=================================
-||			10. Contact With Us
+||			10. Contact
 ==================================*/
 .contact
 {

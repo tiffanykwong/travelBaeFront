@@ -76,7 +76,8 @@
                                 <div class="container border-2">
                                     <div class="row">
                                         <div class="col-sm-5 border-1">
-                                            <h4 class="subtitle custom-purple wow bounceInLeft center animated">To prepare for your trip</h4>
+                                            <h2 class="section-title wow bounceInRight animated custom-white">Preparation</h2>
+                                             <!-- <h4 class="subtitle custom-purple wow bounceInLeft center animated">To prepare for your trip</h4> -->
                                         </div>
                                         <div class="col-sm-7"></div>
                                     </div> <!-- /.row -->
@@ -336,8 +337,35 @@
                                 </div> <!-- /.wrapper --> 
                             </div> <!-- /.about-content -->
                         </div>
-                        <div class="col-md-8 col-sm-12 about-table-cell" style="background:url(images/map.jpg);background-size:cover;">
-                        </div>
+                        <!-- <div class="col-md-8 col-sm-12 about-table-cell" style="background:url(images/map.jpg);background-size:cover;">
+                        </div> -->
+
+                        <!-- Google Maps Location -->
+                            <div id="map">
+                                  <style>
+                                  html, body {
+                                    height: 100%;
+                                    margin: 0;
+                                    padding: 0;
+                                  }
+                                  #map {
+                                    height: 100%;
+                                  }
+                                </style>
+                              </head>
+                              <body>
+                                <div id="map"></div>
+                                <script>
+                                  var map;
+                                  function initMap() {
+                                    map = new google.maps.Map(document.getElementById('map'), {
+                                      center: {lat: -34.397, lng: 150.644},
+                                      zoom: 8
+                                    });
+                                  }
+                                </script>
+                            </div>
+
                     </div> <!-- /.about-table -->
                 </div> <!-- /.row -->
             </div> <!-- /.container-fluid -->
@@ -687,6 +715,14 @@
     <script src="js/jquery.validate.js"></script>
     <script src="nivo-lightbox/nivo-lightbox.min.js"></script>
     <script src="js/script.js"></script>
+    
+    <!-- Load Google Maps API -->
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJsiqNYJrTVAuxpdGVFP60lY4sNmcPyqA&callback=initMap">
+    </script>
+    <!-- Load Google Places Library -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJsiqNYJrTVAuxpdGVFP60lY4sNmcPyqA&libraries=places"></script>
+
 
   </body>
 </html>
