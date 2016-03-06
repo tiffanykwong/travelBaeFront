@@ -455,6 +455,16 @@ button.active, button.filters-button:hover, button.filters-button:active, button
     background-color: rgba(230, 77, 105, 0.85);
 }
 
+#drug {
+	color: #ffffff;
+	font-size: 40px;
+}
+
+#drug2 {
+	color: #ffffff;
+	font-size: 25px;
+}
+
 /*=================================
 ||			8. Meet With Us --- REMOVED
 ==================================*/
